@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#2e1a03" />
+  <link rel="stylesheet" href="generel.css" />
+  <link rel="stylesheet" href="layout.css" />
+  <title>Komponenter</title>
+</head>
+<body>
+  <header class="site-header">
+     <img src="sc-logo.webp" alt="Logo" class="logo" />
+    <nav aria-label="Hovedmenu">
+      <ul class="site-nav">
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="min_computer.html">Min computer</a></li>
+        <li><a href="operativsystemer.html">Operativsystemer</a></li>
+        <li><a href="komponenter.html" aria-current="page">Komponenter</a></li>
+        <li><a href="galleri.html">Galleri</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-wrap page-komponenter">
+    <h1>Komponenter</h1>
+
+    <div class="grid_1-1-1">
+      <div class="flex_col">
+        <div class="figure"><img src="motherboard1.webp" alt="Billede af et bundkort"></div>
+        <div class="last-child">
+          <h3>Bundkort</h3>
+          <p>Forbinder alle komponenter.</p>
+        </div>
+      </div>
+
+      <div class="flex_col">
+        <div class="figure"><img src="grafikkort.webp" alt="Grafikkort med tre blæsere"></div>
+        <div class="last-child">
+          <h3>Grafikkort (GPU)</h3>
+          <p>Godt til spil og videoredigering.</p>
+        </div>
+      </div>
+
+      <div class="flex_col">
+        <div class="figure"><img src="processor.webp" alt="Processor i nærbillede"></div>
+        <div class="last-child">
+          <h3>Processor (CPU)</h3>
+          <p>Udfører beregningerne.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid_1-1-1 text-columns">
+      <section>
+        <h2>Vigtige komponenter</h2>
+        <p>CPU'en er din computers 'Central Processing Unit'. Lidt ligesom din hjerne er hos dig. Bygger du en stationær computer, vil det første, du vælger, oftest være CPU. Det skyldes, at det er afgørende for bundkort og RAM hvilken CPU, du har. I 2021 var det meget svært at skaffe en god CPU, da producenterne slet ikke kunne klare efterspørgslen. Det skyldtes både corona-logistik og "bitcoin" mining, der fik markedet til at gå næsten i stå.</p>
+        <p>GPU kan du måske regne ud, hvad står for? Nemlig, 'Graphic Processing Unit'. Eller på dansk: Grafikkort. Hvis du skal spille computerspil eller redigere video, kan det være en rigtigt god idé at købe en computer med et selvstændigt grafikkort med egne dedikerede RAM. Det er store kræfter, der kræves, når grafik skal spille 100%.</p>
+        <p>RAM, som vi nævnte kort under GPU, er hukommelse for computeren. Altså, hvor mange mellemregninger, den kan have i hovedet på samme tid. Hvis det giver mening. RAM er en forkortelse for 'Random Access Memory'.</p>
+      </section>
+
+      <section>
+        <h2>Køling</h2>
+        <h3>Luftkøling</h3>
+        <p>Den mest almindelige måde at køle en computer på, er luftkøling. Der sidder ganske enkelt én eller flere ventilatorer i computeren, som leder den varme luft væk og køligere luft ind. De kan larme, men i dag kan man købe luftkølere, der næsten intet siger.</p>
+        <h3>Vandkøling</h3>
+        <p>Vandkøling bruger væske i et lukket system til at holde temperaturen nede. Det kræver pumper, slanger og radiatorer og kan være meget effektivt.</p>
+      </section>
+
+      <section>
+        <h2>Motherboard</h2>
+        <p>Bundkortet er "pladen", du sætter din CPU, din GPU og dine RAM fast i. Det er afgørende, at bundkort passer til resten af din hardware, ellers bliver det en "flaskehals".</p>
+      </section>
+    </div>
+
+    <div class="grid_1-1-1 media-row">
+      <div class="figure"><img src="luft.webp" alt="Luftkøling i computer"></div>
+      <div class="figure"><img src="vand.webp" alt="Vandkøling i computer"></div>
+      <div class="figure"><img src="motherboard2.webp" alt="Nærbillede af bundkort"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Lavet af SaraCatia &copy; 2025</p>
+  </footer>
+</body>
+</html>
